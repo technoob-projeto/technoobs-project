@@ -19,15 +19,15 @@ Criação de uma plataforma que reúne os devs Juniors e os recrutadores. Possib
  Júnior.
  
 ## Composição da equipe: ##
- PO - Erica Ramos 
- SM - Cristiano Martins
- TL - Johnathan Kristhian
- QA - Luan da Mata
- QA - Eduardo Ishi
+ PO - Erica Ramos |
+ SM - Cristiano Martins |
+ TL - Johnathan Kristhian |
+ QA - Luan da Mata |
+ QA - Eduardo Ishi 
  
 
 ## Quais as bibliotecas que serão utilizadas? ##
 React.js, Redux, Toastify, yup, React-icons, React Hook form, React router Dom.
 
 ## Infraestrutura da aplicação ##
-Por enquanto sera feito o deploy do jsom-server no heroku e o deploy da aplicação no vercel 
+Por enquanto sera feito o deploy do json-server no heroku e o deploy da aplicação no vercel 
