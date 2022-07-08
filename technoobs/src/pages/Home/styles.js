@@ -1,17 +1,24 @@
 import styled from "styled-components";
 
+
+
 export const HomeStyle = styled.main`
-  width: 100%;
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+ 
+width: 100%;
   height: 1400px;
   background-color: black;
+  font-family: 'VT323', monospace;
 .div__title--container{
     display: flex;
     justify-content: space-evenly;
+    
     
 }
   .h2__title--1{
     display: flex;
     flex-direction: column;
+   
     width: 30%;
     color: #23CE6B;
     font-size: 32px;
@@ -22,6 +29,7 @@ export const HomeStyle = styled.main`
   .h2__title--2{
     display: flex;
     flex-direction: column;
+    
     width: 30%;
     color: #F08700;
     font-size: 32px;
@@ -62,6 +70,7 @@ export const HomeStyle = styled.main`
         
         background: #39ff14;
         box-shadow: 0 0 50px #39ff14;
+        font-size: 50px;
     }
   }
   .button__company--register{
@@ -73,10 +82,12 @@ export const HomeStyle = styled.main`
         
         background: #FFC42C;
         box-shadow: 0 0 50px #FFC42C;
+        font-size: 50px;
     }
 }
 button{
     transition: .6s;
     cursor: pointer;
+    font-family: 'VT323', monospace;
 }
 `;

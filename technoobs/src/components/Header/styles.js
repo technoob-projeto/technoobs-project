@@ -48,9 +48,10 @@ export const HeaderStyle = styled.ul`
     margin: 50px;
     background-color: transparent;
     border: none;
-    font-size: 28px;
+    font-size: 42px;
     font-weight: 900;
     color: #E9EAF1;
+    font-family: 'VT323', monospace;
     &:hover{
       &:hover{
         
