@@ -1,12 +1,19 @@
-import { GlobalStyle } from "./style";
-import Home from "./pages/Home";
+import logo from "./logo.svg";
+import "./App.css";
+import { ModalLogin } from "./modal/modalLogin";
+import Input from "./components/Input/Input";
+import Button from "./components/Button/Button";
 
 function App() {
   return (
-    <>
-      <GlobalStyle />
-      <Home />
-    </>
+    <div>
+      <div>
+        <ModalLogin />
+        <Input />
+      </div>
+
+      <Button />
+    </div>
   );
 }
 
