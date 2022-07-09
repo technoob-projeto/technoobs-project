@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "../../components/Header";
 import { HomeStyle } from "./styles";
-import matrix from "../../assets/matrix.png";
+import Button from "../../components/Button/Button"
+
 
 const Home = () => {
   return (
@@ -13,11 +14,11 @@ const Home = () => {
           <div className="div__title--container">
             <div className="h2__title--1">
               <h2>A way to prove yourself and get real work experience</h2>
-              <button className="button__candidate--register">Register</button>
+              <Button text="Register" color="green" >Register</Button>
             </div>
             <div className="h2__title--2">
               <h2>Register you company and find different talents</h2>
-              <button className="button__company--register">Register</button>
+              <Button text="Register" color="orange">Register</Button>
             </div>
           </div>
           <div className="div__background--2"></div>

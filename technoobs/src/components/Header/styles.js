@@ -7,6 +7,7 @@ export const HeaderStyle = styled.ul`
 
   width: 100%;
   height: 120px;
+  padding: 1rem;
  
 
   background-color: #070707;
@@ -55,8 +56,8 @@ export const HeaderStyle = styled.ul`
     &:hover{
       &:hover{
         
-        color: #2C0E37;
-        box-shadow: 1px 2px 50px #2C0E37;
+        color: #7fff00;
+        box-shadow: 1px 2px 50px #7fff00;
     }
     }
    
