@@ -1,16 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Input from "./Components/Input/Input";
-import Button from "./Components/Button/Button";
+import { FormDev } from "./Components/FormDev";
 
 function App() {
   return (
     <div>
-      <div>
-        <Input />
-      </div>
-
-      <Button />
+      <FormDev />
     </div>
   );
 }
