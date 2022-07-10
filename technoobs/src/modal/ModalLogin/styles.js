@@ -1,15 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    background-color: rgba(0,0,0,0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    .div__principal{
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        background-color: rgba(0,0,0,0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
 
     div{
         display: flex;
@@ -64,5 +66,5 @@ export const Container = styled.div`
 
     .hidden{
         display: none;
-    }
+}
 `

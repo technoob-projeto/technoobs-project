@@ -1,13 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "../../components/Header";
 import { HomeStyle } from "./styles";
 import Button from "../../components/Button/Button"
-
+import { ModalLogin } from "../../modal/ModalLogin";
 
 const Home = () => {
+  const [modalLogin, setModalLogin] = useState("hidden")
+
+  function showModal(){
+    setModalLogin("")
+  }
+
+  function closeModal() {
+    setModalLogin("hidden")
+  }
+
   return (
     <>
-      <Header />
+      <Header showModal={showModal}/>
       <HomeStyle>
         <div className="div__background--3">
           <div className="div__background--1"></div>
@@ -24,6 +34,7 @@ const Home = () => {
           <div className="div__background--2"></div>
         </div>
       </HomeStyle>
+      <ModalLogin closeModal={closeModal} modalLogin={modalLogin}/>
     </>
   );
 };
