@@ -1,7 +1,7 @@
 import React from "react";
 import { ButtonComponent } from "./style";
-const Button = () => {
-  return <ButtonComponent>Button</ButtonComponent>;
+const Button = ({text, color}) => {
+  return <ButtonComponent color={color}>{text}</ButtonComponent>;
 };
 
 export default Button;

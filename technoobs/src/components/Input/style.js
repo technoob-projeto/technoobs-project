@@ -10,4 +10,7 @@ export const InputComponent = styled.input`
   font-size: 14px;
   padding-left: 10px;
   padding-right: 10px;
+
+
+
 `;
