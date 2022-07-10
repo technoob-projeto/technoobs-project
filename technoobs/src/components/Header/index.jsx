@@ -4,8 +4,8 @@ import logo from "../../assets/logo.png";
 import menuicon from "../../assets/menuicon.png";
 import {GiHamburgerMenu} from "react-icons/gi"
 
+const Header = ({showModal}) => {
 
-const Header = () => {
   return (
     <>
       <HeaderStyle>
@@ -18,7 +18,7 @@ const Header = () => {
         <li>
           <button>Home</button>
           <button>Developers</button>
-          <button>Login</button>
+          <button onClick={showModal}>Login</button>
         </li>
       </HeaderStyle>
     </>
